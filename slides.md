@@ -213,6 +213,18 @@ image: /non-violent.jpeg
 </v-clicks>
 
 ---
+layout: two-cols
+---
+
+Dokumentacja jest słaba. Napraw to
+
+::right::
+
+W dokumentacji, którą prowadzimy w ramach wspólnego projektu, nie ma systematyki. Opisy nie są sklasyfikowane, a w dodatku umieszczone zostały w pięciu miejscach w Confluence. Ta sytuacja sprawia, że jestem poirytowany i mam poczucie zmarnowanego czasu, kiedy chcę znaleźć dokładną specyfikację. Boję się, że coś zrobię źle, bo nie mam pewności, czy korzystam z najnowszej wersji dokumentacji. Chciałbym, żeby w dokumentacji panował porządek i żeby poszczególne dokumenty łatwo można było znaleźć. Zależy mi też na tym, żeby posiadać wszystkie informacje do skończenia funkcjonalności, bez konieczności szukania ich w kilku miejscach. Proszę, żebyś wprowadził porządek w dokumentacji, nie tylko po to, żeby można było łatwo się w niej odnaleźć, lecz także po to, żeby zyskać pewność, że wszystkie dokumenty są na swoim miejscu.
+
+
+
+---
 layout: statement
 ---
 
@@ -220,11 +232,26 @@ layout: statement
 
 ~ Marshall B. Rosenberg
 
+
 ---
 layout: full
 ---
 
 # Code review #1
+
+<img src="/change-it.webp" style="width: 100%; margin-top: 16px; object-fit: cover;">
+
+<v-click>
+
+Aktualnie mamy jeden ekran z nawigacją i nawigatory między ekranami. Będzie to się mylić jak dojdzie nam więcej komponentów od nawigacji i więcej navigatorów. Chciałbym, aby nazwy jasno wskazywały odpowiedzialność i moduł z aplikacji. Zmieńmy proszę nazwę tego komponentu na AppMapScreenNavigation.
+
+</v-click>
+
+---
+layout: full
+---
+
+# Code review #2
 
 <img src="/statement.png" style="width: 100%; margin-top: 16px; object-fit: cover;">
 
@@ -236,7 +263,7 @@ NVC: Jest to komponent, używany w wielu miejscach wdrożony zgodnie z design sy
 
 <v-click>
 
-Krótka wersja: Jest to komponent, używany w wielu miejscach. Akualnie został zmieniony domyślny props z 1 na 2. Zmień proszę domyślną wartość z powrotem na 1, bo inaczej ekrany, które go używają przestaną się dobrze wyświetlać.
+Krótka wersja: Jest to komponent, używany w wielu miejscach. Aktualnie został zmieniony domyślny props z 1 na 2. Zmień proszę domyślną wartość z powrotem na 1, bo inaczej ekrany, które go używają mogą się rozjechać.
 
 </v-click>
 
@@ -245,7 +272,7 @@ Krótka wersja: Jest to komponent, używany w wielu miejscach. Akualnie został 
 layout: full
 ---
 
-# Code review #2
+# Code review #3
 
 <img src="/feeling.png" style="width: 100%; margin-top: 16px; object-fit: cover;">
 
@@ -257,10 +284,18 @@ NVC: Wartości propsa variant nie są zgodne z design systemem. Chciałbym, zeby
 
 ---
 layout: image-right
+---
+
+# Code review #4
+
+  <img src="/long-code-review.webp" style="height: 100%; object-fit: cover;">
+
+---
+layout: image-right
 image: /long-code-review.webp
 ---
 
-# Code review #3
+# Code review #4
 
 <v-click>
  
@@ -272,41 +307,10 @@ To powinien być pair programming
 layout: full
 ---
 
-# Code review #4
+# Code review #5
 
 <img src="/abandoned.png" style="width: 100%; margin-top: 16px; object-fit: cover;">
 
-
----
-layout: full
----
-
-# Code review #5
-
-<img src="/change-it.webp" style="width: 100%; margin-top: 16px; object-fit: cover;">
-
-<v-click>
-
-Aktualnie mamy jeden ekran z nawigacją i nawigatory między ekranami. Będzie to się mylić jak dojdzie nam więcej komponentów od nawigacji i więcej navigatorów. Chciałbym, aby nazwy jasno wskazywały odpowiedzialność i moduł z aplikacji. Zmieńmy proszę nazwę tego Navigatora na MapScreenNavigation.
-</v-click>
-
-
----
-layout: full
----
-
-# Code review #6
-
-<img src="/technical.webp" style="width: 100%; margin-top: 16px; object-fit: cover;">
-
-
----
-layout: full
----
-
-<video controls autoplay>
-  <source src="/project.mp4" type="video/mp4">
-</video>
 
 ---
 layout: statement
